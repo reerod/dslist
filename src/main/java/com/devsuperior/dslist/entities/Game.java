@@ -13,7 +13,6 @@ import jakarta.persistence.Table;
 @Table(name = "tb_game")
 public class Game {
 	
-	// Atributos de um Game
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Long id;
